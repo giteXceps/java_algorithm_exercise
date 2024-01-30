@@ -15,13 +15,10 @@ public class dataTypes {
         
         int sayi;
         sayi= 13;
-
-        char karakter = 's';
-        
+        char karakter = 's'; 
         String sehir = "ankara";
-
         boolean dogruMu = false;
 
-
+        System.out.println(sayi+karakter+sehir+dogruMu);
     }
 }

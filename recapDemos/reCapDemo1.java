@@ -1,8 +1,6 @@
 package recapDemos;
 // which one is maximum?
 
-import java.io.Console;
-
 public class reCapDemo1 {
     public static void main(String[] args){
         int sayi1=32;
