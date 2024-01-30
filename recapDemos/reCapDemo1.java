@@ -1,6 +1,6 @@
 package recapDemos;
 // which one is maximum?
-
+// dataTypes, conditionals
 public class reCapDemo1 {
     public static void main(String[] args){
         int sayi1=32;
