@@ -10,7 +10,5 @@ public class conditionals {
         } else{
             System.out.println("Sayi 20'den buyuktur");
         }
-
-        
     }
 }
