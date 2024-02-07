@@ -1,6 +1,6 @@
 package classes;
 
-public class main {
+public class Main {
     public static void main(String[] args){
         //referance type
         CustomerManager customerManager = new CustomerManager();
