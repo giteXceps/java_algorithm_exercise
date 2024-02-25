@@ -1,6 +1,11 @@
 public class BaseCustomer {
     private String name;
-    private String lastName;
+    protected String lastName;
+
+    public BaseCustomer(String name, String lastName){
+        this.name = name;
+        this.lastName = lastName;
+    }
 
     public String getName() {
         return name;

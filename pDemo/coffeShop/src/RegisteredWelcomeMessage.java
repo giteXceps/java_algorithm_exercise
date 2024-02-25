@@ -5,6 +5,6 @@ public class RegisteredWelcomeMessage extends BaseWelcomeMessage{
     @Override
     public void welcomeMessage(BaseCustomer baseCustomer){
         this.registeredCustomer = (RegisteredCustomer) baseCustomer;
-        System.out.println("Dear, \n" + registeredCustomer.getName() + "\nWelcome Back!");
+        System.out.println("Dear, " + registeredCustomer.getName() + "\nWelcome Back!\n");
     }
 }
