@@ -15,6 +15,4 @@ public class GradeBook {
     public String getCourseName() {
         return courseName;
     }
-    
-    
 }

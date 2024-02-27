@@ -41,7 +41,7 @@ public class GradeBookManager {
                 max = grade;
             }
         }
-        System.out.println("Minimum grade is " + max);
+        System.out.println("Maximum grade is " + max);
     }
 
     public void outputBarChart(GradeBook gradeBook){
@@ -53,10 +53,10 @@ public class GradeBookManager {
         
         for (int count = 0; count < 11; count++) {
             if (count == 10)
-            System.out.printf("%5d: ", 100);
+            System.out.printf("  %d: ", 100);
 
             else
-            System.out.printf("%02d-%02d: ", count * 10, count * 10 + 9);
+            System.out.printf("%d-%d: ", count * 10, count * 10 + 9);
             
         for (int stars = 0; stars < frequency[count]; stars++)
             System.out.print("*");
