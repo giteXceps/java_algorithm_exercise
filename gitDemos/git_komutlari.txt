@@ -1,0 +1,56 @@
+git config --global user.name "sefametin"
+git config --global user.email "sefametin68@gmail.com"
+git config --list 
+
+pwd neredesin
+cd ..
+cd users
+cd desktop
+mkdir klasör oluşturur 
+touch dosya oluşturur
+ls klasör içindekileri listeler
+ls -a tüm dosyaları gösterir (gizliler dahil)
+git init
+
+git status değişiklikleri kontrol et commit yapılmayan
+
+git add değişiklikleri stageing areaya alır(local kaydeder)
+git add . tüm dosyaları stageing area'ya yolla
+git commit -m "commit mesajı" stageing area'da ki tüm dosyaları commit yapar
+
+git log yapılan commit logları
+git log --oneline commit logları kısaltılmış
+
+git checkout 605be5e2b676444064d21cdef1acfc3678a27d12 -- .  kodu yazılan commit'e geri dön
+
+git diff dosyalardaki değişiklikleri gösterir
+git diff dosya.adı adı yazılan dosyadaki değişiklikleri gösterir
+
+git checkout -- dosya.adı dosyada yapılan değişikliği geri almanı sağlar
+git reset HEAD deneme4.txt staging area'ya göndediğin yanlış dosyayı geri çekmeye yarar sonrasında yine checkout yapmalısın
+
+git rm test.txt dosya siler
+git rm -r test/ test klasörünü ve içindekileri tamamen siler
+
+git mv deneme.txt test.txt 	*denemeyi test ismi yapar
+git mv test.txt dosya/	 *test.txt dosyasını dosya klasörüne taşır
+git mv test.txt dosya/abc.txt	"test.txt'yi dosya klasörüne taşıyıp ismini abc.txt yapar
+
+git config --global alias.st status	*status bilgisini st'ye depola yani artık st yazınca status olarak algılanacak
+
+git remote add origin https://github.com/giteXceps/app.git	*adresteki repository'e bağlan
+git push -u origin master		*dosyaları gönderme
+
+git pull 	*repository'den dosyalari cekme
+
+gitignore dosyasina iyi bak
+
+git branch	*local branchleri gosterir 
+git branch --all 	*tum branchleri gosterir
+git fetch	*uzak sunucudan branchleri ceker	
+git fetch -p 	*uzak sunucuda olmayan branch'i siler
+git branch -d test 	*localdeki branch siler
+git branch isim 	*localde branch olusturur
+git checkout dev	*dev branchine gecis saglar
+
+git merge dev	*dev'den oldugun yere dosyalari ceker
